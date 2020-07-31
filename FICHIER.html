@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>WebAgency</title>
+  </head>
+  <body>
+    <div class="bloc_page">
+      <header>
+        <div class="logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#banniere_image">Accueil</a></li>
+            <li><a href="#Services">Service</a></li>
+            <li><a href="#Projets">Portfolio</a></li>
+            <li><a href="#Coordonnees">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="banniere_image" class="banner">
+        <div class="arrow-left">&#x3008;</div>
+        <div class="text-banner">
+          <h1><em>WEBAGENCY</em>: L'AGENCE DE TOUT VOS PROJETS!</h1>
+          <p>Vous avez un projet web ? La Web Agency vous aide à le réaliser!</p>
+          <button class="blueButton">Plus d'infos</button>
+        </div>          
+          <div class="arrow-right">&#x3009;</div>
+      </section>
+      <section id="Services">
+        <h1>NOS SERVICES</h1>
+        <div class="bulletContainer centerDiv">
+          <hr>
+          <div class="circle centerDiv"></div>
+        </div>
+        <p>Accompagner les entreprises dans la mise en place de leur stratégie web, du site Internet au dévelopement BtoC et BtoB.</p>
+        <div class="servicesWithImage">
+          <div class="service"></div>
+          <div class="marge">
+            <div class="flex">
+              <div class="fleche"></div>
+              <div>
+                <h2>UX DESIGN</h2>
+                <p>L’expérience utilisateur est au cœur de nos projets pour rendre l’ergonomie de votre site Internet intuitif à comprendre et à utiliser.</p>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="boxes"></div>
+              <div>
+                <h2>UI DESIGN</h2>
+                <p>Adapter votre site Internet au public visé et leur interface d’affichage est la garantie d’un rendu de service efficient.</p>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="parts"></div>
+              <div>
+                <h2>SEO</h2>
+                <p>Votre site Internet est intégré, positionné et maintenu en tête des classements des moteurs de recherche pour générer le plus fort trafic.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Projets">
+        <h1>NOS PROJETS</h1>
+        <div class="bulletContainer centerDiv">
+          <hr>
+          <div class="circle centerDiv"></div>
+        </div>
+        <p>Vous y êtes presque ! Vous avez mis du temps ? Peu important le plus important est le résultat final et je suis sûr qu'il vous plaira.</p>
+        <ul>
+          <li class="active">All work</li>
+          <li>Creative</li>
+          <li>Corporate</li>
+          <li>Portfolio</li>
+        </ul>
+        <div class="wrapper">
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item1.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 1</h3>
+              Qui sommes-nous ?
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item2.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 2</h3>
+              Que faisons-nous ?
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item3.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 3</h3>
+              Partenaires
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item4.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 4</h3>
+              Fournisseurs
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item5.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 5</h3>
+              Vos besoins, vos envies
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item6.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 6</h3>
+              Nos adresses
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item7.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 7</h3>
+              Nos projets
+            </figcaption>
+          </figure>
+          <figure class="PortfolioItem">
+            <img src="images/portfolio/item8.jpg" class="portfolioImage">
+            <figcaption>
+              <h3>Portfolio Item 8</h3>
+              Nous contacter
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="Coordonnees">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10696.16882395281!2d1.8891977000000002!3d47.9162208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1587841451523!5m2!1sfr!2sfr"></iframe>
+        <div class="contactform">
+          <h3>Contact Infos</h3>
+          <p><strong>WebAgency SAS</strong><br>Adresse<br>Téléphone</p>
+          <form action="/ma-page-de-traitement" method="post">
+            <input placeholder="name" type="text" id="name" name="user_name">
+            <input placeholder="email" type="email" id="mail" name="user_mail">
+            <input placeholder="subject" type="text" name="user_subject">
+            <textarea placeholder="message" id="msg" name="user_message"></textarea>
+            <button class="blueButton">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
